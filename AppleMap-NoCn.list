@@ -10,7 +10,7 @@ DOMAIN,gspe1-ssl.ls.apple.com.cn
 # 3. 拦截特定的大陆区定位与地图切片域名
 DOMAIN,gspe11-cn-ssl.ls.apple.com
 DOMAIN,gspe11-2-cn-ssl.ls.apple.com
-DOMAIN,gspe12-cn-ssl.ls.apple.com:443
+DOMAIN,gspe12-cn-ssl.ls.apple.com
 DOMAIN,gspe19-cn-ssl.ls.apple.com
 DOMAIN,gspe19-2-cn-ssl.ls.apple.com
 DOMAIN,gspe79-cn-ssl.ls.apple.com
