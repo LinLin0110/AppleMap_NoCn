@@ -1,0 +1,19 @@
+# Apple Maps 阻止跳转中国大陆版 (高德数据) 规则
+
+# 1. 拦截高德地图基础域名
+DOMAIN-SUFFIX,is.autonavi.com,REJECT-DROP
+
+# 2. 拦截苹果大陆专用地图域名
+DOMAIN,maps.apple.com.cn,REJECT-DROP
+DOMAIN,gspe1-ssl.ls.apple.com.cn,REJECT-DROP
+
+# 3. 拦截特定的大陆区定位与地图切片域名
+DOMAIN,gspe11-cn-ssl.ls.apple.com,REJECT-DROP
+DOMAIN,gspe11-2-cn-ssl.ls.apple.com,REJECT-DROP
+DOMAIN,gspe19-cn-ssl.ls.apple.com,REJECT-DROP
+DOMAIN,gspe19-2-cn-ssl.ls.apple.com,REJECT-DROP
+DOMAIN,gspe79-cn-ssl.ls.apple.com,REJECT-DROP
+
+# 4. 拦截部分容易触发特供版分流的国际域名（可选，根据跳区情况决定是否保留）
+DOMAIN,gsp64-ssl.ls.apple.com,REJECT-DROP
+DOMAIN,gspe35-ssl.ls.apple.com,REJECT-DROP
