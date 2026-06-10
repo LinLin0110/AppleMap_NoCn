@@ -16,7 +16,7 @@ DOMAIN,gspe19-2-cn-ssl.ls.apple.com
 DOMAIN,gspe79-cn-ssl.ls.apple.com
 
 # 4. 拦截部分容易触发特供版分流的国际域名（可选，根据跳区情况决定是否保留）
-#DOMAIN,gsp64-ssl.ls.apple.com
+DOMAIN,gsp64-ssl.ls.apple.com
 DOMAIN,gspe35-ssl.ls.apple.com
 
 # 5.拦截Wi-Fi热点定位服务
